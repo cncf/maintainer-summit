@@ -1,4 +1,4 @@
-title: 'Unconference Topic '
+title: '<Unconference session name>'
 body:
   - type: input
     id: topic
