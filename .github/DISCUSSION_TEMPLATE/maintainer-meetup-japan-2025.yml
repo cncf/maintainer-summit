@@ -1,0 +1,34 @@
+title: '<Unconference session name>'
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      placeholder: What is the session name for your unconference topic?
+    validations:
+      required: true
+  - type: input
+    id: projects
+    attributes:
+      label: What projects are involved?
+      placeholder: Please list any projects that the unconference topic involves
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Brief description of your unconference idea.
+    validations:
+      required: true
+  - type: textarea
+    id: contact-info
+    attributes:
+      label: Session lead contact information
+      description: >-
+        Please provide the names and email and CNCF Slack ID to follow up if
+        your session is selected.
+      placeholder: >-
+        Staff will reach out to those listed here to notify them of selection
+        and coordinate room assignment.
+    validations:
+      required: true
+
